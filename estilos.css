@@ -1,0 +1,186 @@
+body
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    width: 100%;
+
+}
+
+.padre
+{
+    display: flex;
+    background-color: #953737;
+    width: 100%;
+    height: 100px;
+    justify-content:space-between;
+}
+
+.Nietos
+{
+    display: flex;
+    margin: 20px 20px;
+    
+}
+
+.hijogrande
+{
+background-color: #D9D9D9;
+width: 244px;
+height: 44px;
+margin: 25px 25px;
+}
+.hijo
+{
+background-color: #D9D9D9;
+width: 170px;
+height: 54px;
+margin: 5px;
+
+
+}
+
+.contenedor
+{
+    display: flex;
+    justify-content:space-around;
+    background-color: red;
+    width: 100%;
+    height: 600px;
+
+}
+
+.lalos
+{
+    background-color: #D9D9D9;
+    width: 500px;
+    height: 500px;
+   margin: 35px;
+   display: flex;
+    
+    
+  
+}
+.lalos2
+{
+    background-color: #D9D9D9;
+    width: 500px;
+    height: 500px;
+   margin: 35px;
+   display: flex;
+   
+   
+}
+
+
+.lalitos
+{
+    background-color: #2C754D;
+    width: 100px;
+    height: 100px;
+    margin:2px;
+}
+
+.lalitos22
+{
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.lalitos2
+{
+    background-color: #2C754D;
+    width: 100px;
+    height: 100px;
+    margin:2px;
+    align-self: flex-end;
+ 
+}
+
+.contenedor2
+{
+    width: 100%;
+    height: 500px;
+    background-color: #70707e;
+    display: flex;
+    
+    
+}
+
+.pison
+{
+    width: 100%;
+
+ display: flex;
+
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ height: 300px;
+}
+
+.piso
+{
+    background-color: #2C754D;
+    width: 100px;
+
+    height: 100px;
+    margin: 50px;
+  
+}
+
+
+.rectangulo
+{
+background-color: #221897;
+width: 1000px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.rectangulitos
+{
+    background-color: #D9D9D9;
+    width: 247px;
+    height: 100px;
+    margin: 2px;
+}
+
+.contenedor3
+{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo
+{
+    width: 100px;
+}
+
+.contenedorsito
+{
+    margin:50px;
+    text-align: center;
+}
+
+ .contenedor4
+{
+    width: 100%;
+    background-image: url(img/trujillo.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+} 
+
+.texto
+{
+    flex-direction: row;
+    align-self: center;
+}
